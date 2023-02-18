@@ -1,6 +1,35 @@
-Book API 
+Book Inventory API 
 
         This is a RESTful API for managing books.
+
+The architecture for the book inventory API service can be described as follows:
+
+                1. Node.js: Node.js is used as the server-side JavaScript runtime environment for the book inventory API service.
+
+                2. Express.js: Express.js is a popular Node.js web application framework that is used to define the API routes and handle incoming requests. It provides a set of tools and utilities for building APIs and web applications.
+
+                3. json-server: json-server is a Node.js module that allows developers to easily create a RESTful API with a JSON file as the persistent storage. json-server is used to implement the persistent storage for the book inventory API service.
+
+                4. Logging: Proper logging is implemented to monitor the activity of the service. The logs include details such as the endpoint accessed, the timestamp, and the user who accessed it.
+
+                5. Security: The book inventory API service is secured using a static API key that is included in the headers of all API requests. The API key is verified on the server before allowing access to the endpoints.
+
+                6. API Endpoints: The book inventory API service includes the following endpoints:
+
+                    GET api/books: This endpoint returns the list of all books in the inventory.
+
+                    POST api/books: This endpoint adds a new book to the inventory.
+
+                    DELETE api/books/:id: This endpoint deletes a book with a specific ID from the inventory.
+
+                    GET api/books/search: This endpoint searches for books by name and/or author.
+
+                    GET api/books/:id: This endpoint gets the details of a book with a specific ID.
+
+                7. Data Structure: The persistent storage for the book inventory API service is implemented using a JSON file format. Specifically, the data is stored in a single JSON file with an array of books, where each book is represented as a JSON object with properties such as "id", "title", "author", "isbn", and "publicationDate".
+                
+                
+                
 
 Installation: 
         Clone the repository.
