@@ -50,6 +50,7 @@ async function deleteBook(req, res, next) {
     const id = req.params.id
     const books = await router.db.get('books')
     const book = books.find((book) => book.id === id)
+    //checking if book with given id is present or not
     if (!book) {
       res.status(404).json({
         success: false,
