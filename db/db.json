@@ -1,0 +1,60 @@
+{
+  "books": [
+    {
+      "id": "7af3e331-a1da-4429-9e7a-33b9ef8dae82",
+      "name": "book1",
+      "author": "author1",
+      "genre": "Fiction",
+      "description": "this book is for xyz",
+      "publicationDate": "2022-07-20"
+    },
+    {
+      "id": "1290ced6-0c91-42a3-a721-cc97b033e489",
+      "name": "book2",
+      "author": "author2",
+      "genre": "Fiction",
+      "description": "this book is for xyz",
+      "publicationDate": "2022-07-20"
+    },
+    {
+      "id": "d925349b-643a-41ff-9f06-86e423b9feff",
+      "name": "book3",
+      "author": "author3",
+      "genre": "Fiction",
+      "description": "this book is for xyz",
+      "publicationDate": "2022-07-20"
+    },
+    {
+      "id": "bb1e5c6c-892f-440f-ad83-322a5ef54f0c",
+      "name": "book4",
+      "author": "author4",
+      "genre": "Fiction",
+      "description": "this book is for xyz",
+      "publicationDate": "2022-07-20"
+    },
+    {
+      "id": "fc1fda49-80c5-44c2-9a50-01ca83ea2185",
+      "name": "book5",
+      "author": "author5",
+      "genre": "Fiction",
+      "description": "this book is for xyz",
+      "publicationDate": "2022-07-20"
+    },
+    {
+      "id": "935040e1-a7a9-4ffa-aba8-8f0a459ea617",
+      "name": "book6",
+      "author": "author6",
+      "genre": "Fiction",
+      "description": "this book is for xyz",
+      "publicationDate": "2022-07-20"
+    },
+    {
+      "id": "229813fe-8cf1-443f-9579-39de13f7ab84",
+      "name": "book7",
+      "author": "author1",
+      "genre": "Fiction",
+      "description": "this book is for xyz",
+      "publicationDate": "2022-07-20"
+    }
+  ]
+}
