@@ -4,6 +4,7 @@ const dbFile = "./db/db.json";
 const Book = require('../models/book');
 const router = jsonServer.router(dbFile);
 
+// for getting list of books
 async function getAllBooks(req, res, next) {
   try {
     const books = await router.db.get("books");
@@ -43,6 +44,8 @@ async function addBook(req, res, next) {
   }
 }
 
+
+// for deleting Book
 async function deleteBook(req, res, next) {
   try {
     const id = req.params.id;
@@ -63,6 +66,8 @@ async function deleteBook(req, res, next) {
     next(err);
   }
 }
+
+// for searching book 
 
 async function searchBook(req, res, next) {
   try {
