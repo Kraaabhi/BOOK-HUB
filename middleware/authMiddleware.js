@@ -1,5 +1,5 @@
 function authMiddleware(req, res, next) {
-  const apiKey = req.headers['x-api-key']
+  const apiKey = req.headers['auth-api-key']
   const API_KEY = process.env.API_KEY
 
   if (apiKey === API_KEY) {
