@@ -62,8 +62,7 @@ Usage:
 
 
 <----------------------------------------------->
-
-                                 GET    api/books
+GET  api/books
     
             Retrieves all books.
             
@@ -91,7 +90,7 @@ Usage:
                                 ]
                                 }
 <--------------------------------------------->
-                                 POST     api/books
+POST     api/books
       
             Adds a new book.
 
@@ -111,8 +110,7 @@ Usage:
                                 }
                                 
 <--------------------------------------------->
-
-                                   DELETE    api/books/:id
+DELETE    api/books/:id
      
             Deletes a book with the specified ID.
 
@@ -123,8 +121,7 @@ Usage:
                                 }
 
 <--------------------------------------------->  
-
-                              Get    api/books/search
+ Get    api/books/search
     
             Searches for books by name and/or author.
             
