@@ -10,7 +10,7 @@ Installation:
 
 Authentication:
         To authenticate requests, you need to include an "auth-api-key" header in your requests with a valid access token.
-        auth-api-key: YOUR_ACCESS_TOKEN 
+                                auth-api-key: YOUR_ACCESS_TOKEN 
 
 
 Configuration:
