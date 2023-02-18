@@ -24,7 +24,6 @@ The architecture for the book inventory API service can be described as follows:
 
                     GET api/books/search: This endpoint searches for books by name and/or author.
 
-                    GET api/books/:id: This endpoint gets the details of a book with a specific ID.
 
                 7. Data Structure: The persistent storage for the book inventory API service is implemented using a JSON file format. Specifically, the data is stored in a single JSON file with an array of books, where each book is represented as a JSON object with properties such as "id", "title", "author", "genre", and "publicationDate".
                 
@@ -63,7 +62,7 @@ Usage:
 
 
 <----------------------------------------------->
-                                 GET api/books
+                                 GET           api/books
     
             Retrieves all books.
             
@@ -91,7 +90,7 @@ Usage:
                                 ]
                                 }
 <--------------------------------------------->
-                                 POST api/books
+                                 POST          api/books
       
             Adds a new book.
 
@@ -111,7 +110,7 @@ Usage:
                                 }
                                 
 <--------------------------------------------->
-                                   DELETE api/books/:id
+                                   DELETE           api/books/:id
      
             Deletes a book with the specified ID.
 
@@ -121,8 +120,8 @@ Usage:
                                     "message": "deleted successfully"
                                 }
 
-<--------------------------------------------->      
-                                 POST api/books/search
+<--------------------------------------------->  
+                                 Get          api/books/search
     
             Searches for books by name and/or author.
             
