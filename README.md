@@ -38,8 +38,8 @@ Installation:
 
 
 Authentication:
-        To authenticate requests, you need to include an "auth-api-key" header in your requests with a valid access token.
-                                auth-api-key: YOUR_ACCESS_TOKEN 
+                 To authenticate requests, you need to include an "auth-api-key" header in your requests with a valid access token.
+                 auth-api-key: YOUR_ACCESS_TOKEN 
 
 
 Configuration:
@@ -89,7 +89,6 @@ Usage:
                                     }
                                 ]
                                 }
-<----------------------------------------------------------------------->
 
       POST api/books
             Adds a new book.
@@ -109,7 +108,6 @@ Usage:
                                     "message": "added successfully"
                                 }
 
-<----------------------------------------------------------------------->        
 
      DELETE api/books/:id
             Deletes a book with the specified ID.
@@ -121,7 +119,6 @@ Usage:
                                 }
 
                                 
-<----------------------------------------------------------------------->
 
     POST api/books/search
             Searches for books by name and/or author.
