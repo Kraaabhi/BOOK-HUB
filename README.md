@@ -89,7 +89,7 @@ Usage:
                                     }
                                 ]
                                 }
-
+<--------------------------------------------->
       POST api/books
             Adds a new book.
 
@@ -107,7 +107,7 @@ Usage:
                                     "success": true,
                                     "message": "added successfully"
                                 }
-
+<--------------------------------------------->
 
      DELETE api/books/:id
             Deletes a book with the specified ID.
@@ -118,7 +118,7 @@ Usage:
                                     "message": "deleted successfully"
                                 }
 
-                                
+<--------------------------------------------->      
 
     POST api/books/search
             Searches for books by name and/or author.
@@ -146,10 +146,4 @@ Usage:
                                         }
                                     ]
                                 }
-
-
-
-
-
-
 
