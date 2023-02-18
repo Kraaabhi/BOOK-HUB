@@ -26,7 +26,7 @@ The architecture for the book inventory API service can be described as follows:
 
                     GET api/books/:id: This endpoint gets the details of a book with a specific ID.
 
-                7. Data Structure: The persistent storage for the book inventory API service is implemented using a JSON file format. Specifically, the data is stored in a single JSON file with an array of books, where each book is represented as a JSON object with properties such as "id", "title", "author", "isbn", and "publicationDate".
+                7. Data Structure: The persistent storage for the book inventory API service is implemented using a JSON file format. Specifically, the data is stored in a single JSON file with an array of books, where each book is represented as a JSON object with properties such as "id", "title", "author", "genre", and "publicationDate".
                 
                 
                 
