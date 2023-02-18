@@ -2,18 +2,18 @@ Book API
 
         This is a RESTful API for managing books.
 
-Installation
+Installation: 
         Clone the repository.
         Install dependencies using npm install.
         Start the server using npm start.
 
 
-Authentication
+Authentication:
         To authenticate requests, you need to include an "auth-api-key" header in your requests with a valid access token.
          auth-api-key: YOUR_ACCESS_TOKEN 
 
 
-Configuration
+Configuration:
         Before running the server, you need to create a config folder and inside that create config.env file in the root directory of the project. add below key value pair in the file:
 
            PORT: 3000, // the port number to run the server on
@@ -23,7 +23,7 @@ Configuration
 
 
 
-Usage
+Usage:
 
         The following endpoints are available:
 
