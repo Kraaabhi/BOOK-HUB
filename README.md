@@ -62,8 +62,9 @@ Usage:
         POST api/books/search - searches for books by name and/or author
 
 
-
-    GET api/books
+<----------------------------------------------->
+                                 GET api/books
+    
             Retrieves all books.
             
 
@@ -90,7 +91,8 @@ Usage:
                                 ]
                                 }
 <--------------------------------------------->
-      POST api/books
+                                 POST api/books
+      
             Adds a new book.
 
             Example request body:
@@ -107,9 +109,10 @@ Usage:
                                     "success": true,
                                     "message": "added successfully"
                                 }
+                                
 <--------------------------------------------->
-
-     DELETE api/books/:id
+                                   DELETE api/books/:id
+     
             Deletes a book with the specified ID.
 
             Example response:
@@ -119,10 +122,11 @@ Usage:
                                 }
 
 <--------------------------------------------->      
-
-    POST api/books/search
+                                 POST api/books/search
+    
             Searches for books by name and/or author.
-
+            
+            
             Example request body:
                                  {
                                     "name": "book1",
