@@ -8,5 +8,4 @@ router.route("/books").post(authMiddleware,addBook)
 router.route("/books/:id").delete(authMiddleware,deleteBook);
 router.route("/books/search").get(authMiddleware,searchBook);
 
-
 module.exports=router;
