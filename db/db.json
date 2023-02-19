@@ -11,7 +11,7 @@
     {
       "id": "1290ced6-0c91-42a3-a721-cc97b033e489",
       "name": "book2",
-      "author": "author2",
+      "author": "author1",
       "genre": "Fiction",
       "description": "this book is for xyz",
       "publicationDate": "2022-07-20"
@@ -19,7 +19,7 @@
     {
       "id": "d925349b-643a-41ff-9f06-86e423b9feff",
       "name": "book3",
-      "author": "author3",
+      "author": "author1",
       "genre": "Fiction",
       "description": "this book is for xyz",
       "publicationDate": "2022-07-20"
